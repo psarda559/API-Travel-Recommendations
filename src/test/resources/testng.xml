@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Get Travel Recommendations Suite">
+    <!-- Adding Allure listener to capture results for Allure report -->
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test verbose="2" name="Travel Recommendations Tests">
+        <classes>
+            <class name="TravelRecommendationsTest"/>
+        </classes>
+
+    </test>
+</suite>
